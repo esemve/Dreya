@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <messengerSenderGateway>http://yoursite/sender.php</messengerSenderGateway>
+    <ezRss>https://eztv.ag/ezrss.xml</ezRss>
+    <showsFolder>~/series/</showsFolder>
+    <showsTorrentFolder>~/torrents/</showsTorrentFolder>
+    <shows>
+	<series>
+	    <name>Freinds</name>
+	    <torrentTitle>Friends</torrentTitle>
+	    <subtitleText>Friends</subtitleText>
+	    <notIn>Orlans</notIn>
+	</series>
+    </shows>
+    <events>
+	<event month="10" day="31">Halloween</event>
+	<event month="03" day="08">Nők napja</event>
+	<event month="10" day="23">Október 23</event>
+	<event month="03" day="15">Március 15</event>
+	<event month="02" day="14">Valentin nap</event>
+    </events>
+    <bkk>
+	<line>47-es</line>
+	<line>41-es</line>
+	<line>2-es</line>
+	<line>M1</line>
+	<line>M2</line>
+	<line>M3</line>
+    </bkk>
+</config>
