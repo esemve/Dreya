@@ -79,6 +79,7 @@ public class MkvFile {
         String filename = this.filename.toLowerCase();
         content = content.toLowerCase();
         
+        
         String s_ep = this.episode+"";        
         String d_ep = this.episode+"";
         if (this.episode<10)
@@ -94,7 +95,8 @@ public class MkvFile {
         }
         this.s_season = d_se;
         
-        if (content.contains("magyar"))
+        //if (content.contains("magyar"))
+        if (true)
         {
             content = content.replace("[", " ");
             content = content.replace("]", " ");
@@ -108,9 +110,8 @@ public class MkvFile {
             {
                 content = content.replace("  ", " ");    
             }
-            
-           
-            if (content.contains(" "+s_se+"x"+d_ep+" "))
+
+            if ((content.contains(" "+s_se+"x"+d_ep+" ")) | (content.contains(" "+d_se+"x"+d_ep+" ")))
             {
                 int score = 0;
                 String[] parts = content.split(" ");
@@ -134,6 +135,11 @@ public class MkvFile {
             
            
         }
+    }
+    
+    public String getFileName()
+    {
+        return this.filename;
     }
     
     public void download()

@@ -1,9 +1,11 @@
-package dreya.miners;
+package dreya.notification;
 
 import dreya.Config;
 import dreya.Database;
 import dreya.messenger.Messenger;
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -13,16 +15,16 @@ import org.jsoup.select.Elements;
  *
  * @author smv
  */
-public class Bkk {
+public class BkkNotification  implements Runnable {
     
     int lastBkkNews = 0;
     
-    public Bkk()
+    public BkkNotification()
     {
         this.lastBkkNews = Integer.parseInt(Database.get("lastBkkAlert", "0"));
     }
     
-    public void run()
+    public void check()
     {
         try
         {
@@ -80,6 +82,19 @@ public class Bkk {
         {
             System.out.println("[error] "+ex);
         }
+    }
+
+    @Override
+    public void run() {
+        while (true)
+        {
+            try {
+                this.check();    
+                Thread.sleep(900000);
+            } catch (InterruptedException ex) {
+                System.out.println("[error] BKKNotification Thread error: "+ex.getMessage());
+            }
+        }        
     }
 }
     

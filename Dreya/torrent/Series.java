@@ -47,6 +47,11 @@ public class Series implements java.io.Serializable  {
     }
     
     
+    public String getTorrentTitle()
+    {
+        return this.torrentTitle;
+    }
+    
     public void check(String title, String url)
     {
         title = title.toLowerCase();

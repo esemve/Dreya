@@ -14,6 +14,17 @@ public class Normalizer {
     public static String normalizeWords(String message)
     {   
         message = Normalizer.normalizeSingleWords(message, "hello|szia|szerbusz|szervusz|csao|haliho|jo estet|joestet|joreggelt|jo napot");
+        message = Normalizer.normalizeSingleWords(message, "mi|micsoda");
+        message = Normalizer.normalizeSingleWords(message, "elet|elet|vilagmindenseg|vilag");
+        message = Normalizer.normalizeSingleWords(message, "ertelme|ertelme");
+        message = Normalizer.normalizeSingleWords(message, "ne|ne");
+        message = Normalizer.normalizeSingleWords(message, "nem|nem");
+        message = Normalizer.normalizeSingleWords(message, "kapcsolj|kikapcs|kapcsolodj");
+        message = Normalizer.normalizeSingleWords(message, "ebren|ebren");
+        message = Normalizer.normalizeSingleWords(message, "maradj|maradj");
+        message = Normalizer.normalizeSingleWords(message, "menj|menj|mehetsz");
+        message = Normalizer.normalizeSingleWords(message, "ki|ki");
+        message = Normalizer.normalizeSingleWords(message, "aludj|aludhatsz|aludj|alvas|aludni");
         
         return message;
     }

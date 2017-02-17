@@ -1,10 +1,12 @@
 package dreya.messenger;
 
 import dreya.Config;
+import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -20,7 +22,7 @@ public class Sender {
     public static void send(String recipient, String content)
     {
         try
-        {
+        {            
             JSONObject jo = new JSONObject();
             jo.put("recipient", recipient);
             jo.put("message", content);
@@ -33,15 +35,19 @@ public class Sender {
 
             
             http.setDoOutput(true);
-            OutputStreamWriter wr = new OutputStreamWriter(http.getOutputStream());
-            wr.write(data);
-            wr.flush();        
-            wr.close();
+            try (OutputStreamWriter wr = new OutputStreamWriter(http.getOutputStream())) {
+                wr.write(data);
+                wr.flush();
+            }
+            catch (Exception ex)
+            {
+                
+            }
             
             int statusCode = http.getResponseCode();     
             http.disconnect();            
         }
-        catch (Exception ex) {
+        catch (IOException | JSONException ex) {
             
         }
     }

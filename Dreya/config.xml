@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+    <cameraIp>192.168.0.100</cameraIp>
+    <cameraUserPass>xxxxxxxxxxxxx</cameraUserPass>
     <messengerSenderGateway>http://yoursite/sender.php</messengerSenderGateway>
     <ezRss>https://eztv.ag/ezrss.xml</ezRss>
     <showsFolder>~/series/</showsFolder>

@@ -19,17 +19,21 @@ Jelenleg Dreya "magja" egy Java -ban írt rész, ami a Dreya mappában találhat
  * Ha a BKV -nek gondja van valamely engem érintő járattal, arról értesít.
  * A fentiekről értesít Facebookon
  * Facebook chatbotként jelenleg csak a "hello" -ra képes válaszolni.
+ * Soros porton rákötött Arduino kezelése
+ * Értesítések a közeledő névnapokról, szülinapokról, ünnepnapokról
+ * Mozgásérzékelő
+ * Arduino érzékeli, hogy a lakáskulcs a megfelelő titkos helyre lett-e berakva. Ha nem akkor beindítja a riasztót, ha igen, akkor köszön.
+ * Az IP kamera zavaró, hogy folyamatosan néz. Ha a rendszer úgy érzékeli, hogy hazaértünk, akkor az ip kamerát befordítja a fal felé. Ez egy picit robotos hatást is kölcsönöz Dreyanak.
+
+
 
 ## Mik a tervezett funkciók?
 
 Dreyának már volt egy PHP-ban, pythonban, node -ban írt verziója Nostromo néven. A cél most az, hogy ezeket a scripteket egyesítsem egyetlen felületen. A régi funkciók mindenképpen bele kerülnek a rendszerbe:
  * Facebookról szabad szavas kérések értelmezése
- * Soros porton rákötött Arduino kezelése
- * Értesítések a közeledő névnapokról, szülinapokról, ünnepnapokról
  * Időjárási riasztások küldése
  * Zenelejátszás
  * Riasztás webkamerakép mellékelésével
- * Mozgásérzékelő ismét működjön, alertet kapjak
  * Arcfelismerés IP kamera/webkamera alapján
  * Ki van otthon? kérdésre képes legyen válaszolni
  * Mennyi az idő kérdésre válasz

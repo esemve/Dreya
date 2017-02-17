@@ -8,12 +8,13 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import dreya.Config;
 import java.io.File;
+import java.util.List;
 
 /**
  *
  * @author smv
  */
-public class SubtitleDownloader {
+public class SubtitleDownloader implements Runnable {
     
     
     public void check()
@@ -62,8 +63,34 @@ public class SubtitleDownloader {
                     String srtHref = links.get(1).attr("href");
                     String rowContent = row.text();
                     
-                    files.forEach((file) -> {
-                        file.checkSubtitle(rowContent,srtHref);
+                    
+                    files.forEach((MkvFile file) -> {
+                        
+                        List<Series> seriesList = Config.seriesList;
+
+                        for (Series series : seriesList)
+                        {
+                            if (rowContent.toLowerCase().contains(series.getSubtitleText().toLowerCase()))
+                            {
+                                
+                                String[] parts = series.getTorrentTitle().toLowerCase().split(" ");
+                                
+                                boolean allpartsok = true;
+                                
+                                for (String part : parts)
+                                {
+                                    if (!file.getFileName().toLowerCase().contains(part))
+                                    {
+                                        allpartsok = false;
+                                    }                                    
+                                }
+                                
+                                if (allpartsok)
+                                {
+                                    file.checkSubtitle(rowContent,srtHref);                            
+                                }
+                            }
+                        }                        
                     });                    
                     
                 }
@@ -71,6 +98,8 @@ public class SubtitleDownloader {
                     System.out.println("[error] "+ex.getMessage());
                 }
             });
+            
+            
             
             files.forEach((file) -> {
                 file.download();
@@ -81,5 +110,18 @@ public class SubtitleDownloader {
             System.out.println("[error] "+ex.getMessage());
         }
         
+    }
+
+    @Override
+    public void run() {
+        while (true)
+        {
+            try {
+                this.check();
+                Thread.sleep(1800000);
+            } catch (InterruptedException ex) {
+                System.out.println("[error] Subtitledownloader Thread error: "+ex.getMessage());
+            }
+        }
     }
 }

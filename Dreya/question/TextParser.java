@@ -19,6 +19,9 @@ public class TextParser {
         ArrayList<Question> newQuestions = new ArrayList<>();
         
         newQuestions.add(new Hello(this.sender,this.message,this.normalized));
+        newQuestions.add(new Life(this.sender,this.message,this.normalized));
+        newQuestions.add(new NoTurnOff(this.sender,this.message,this.normalized));
+        newQuestions.add(new TurnOff(this.sender,this.message,this.normalized));
         
         return newQuestions;
     }

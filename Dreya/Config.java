@@ -10,6 +10,7 @@ import java.io.File;
 import dreya.torrent.Series;
 import java.util.ArrayList;
 import java.util.List;
+import dreya.notification.Holiday;
 
 
 
@@ -22,11 +23,14 @@ public class Config {
     public static String messengerSenderGateway = "";
     public static String showsFolder = "";
     public static String ezRss = "";
+    public static String cameraIp = "";
+    public static String cameraUserPass = "";
     public static String showsTorrentFolder = "";
     public static List<Series> seriesList = new ArrayList<Series>();
     public static String workDir = "";
     public static String dataDir = "";
     public static ArrayList<String> bkk = new ArrayList<String>();
+    public static ArrayList<Holiday> events = new ArrayList<Holiday>();
     
     public static void init()
     {
@@ -49,6 +53,8 @@ public class Config {
             Config.showsFolder = doc.getElementsByTagName("showsFolder").item(0).getTextContent();
             Config.ezRss = doc.getElementsByTagName("ezRss").item(0).getTextContent();
             Config.showsTorrentFolder = doc.getElementsByTagName("showsTorrentFolder").item(0).getTextContent();
+            Config.cameraIp = doc.getElementsByTagName("cameraIp").item(0).getTextContent();
+            Config.cameraUserPass = doc.getElementsByTagName("cameraUserPass").item(0).getTextContent();
             
             NodeList nList = doc.getElementsByTagName("series");
             
@@ -75,7 +81,7 @@ public class Config {
             NodeList bkkList = doc.getElementsByTagName("line");
             for (int temp = 0; temp < bkkList.getLength(); temp++) {
                 Node bkkNode = bkkList.item(temp);
-                bkkNode.normalize();;
+                bkkNode.normalize();
                 if (bkkNode.getNodeType() == bkkNode.ELEMENT_NODE) {
                     Element bkkElement = (Element) bkkNode;
 
@@ -85,10 +91,27 @@ public class Config {
                         String content = bkkElement.getTextContent();
                         Config.bkk.add(temp, content);
                     }
-                     
- 
                 }
             }
+            
+            NodeList eventList = doc.getElementsByTagName("event");
+            for (int temp = 0; temp < eventList.getLength(); temp++) {
+                Node eventNode = eventList.item(temp);
+                eventNode.normalize();
+                if (eventNode.getNodeType() == eventNode.ELEMENT_NODE) {
+                    Element eventElement = (Element) eventNode;
+                    eventElement.normalize();
+                    if (eventElement.getTextContent()!=null)
+                    {
+                        Holiday holiday = new Holiday();
+                        holiday.month = eventElement.getAttribute("month");
+                        holiday.day = eventElement.getAttribute("day");
+                        holiday.name = eventElement.getTextContent();
+                        Config.events.add(temp, holiday);
+                    }
+                }
+            }
+            
             
             System.out.println("[info] Config file feldolgozva");
             

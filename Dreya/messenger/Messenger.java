@@ -16,6 +16,7 @@ public class Messenger {
     {
         Sender sender = new Sender();
         sender.send(recipient, message);
+        //System.out.println(message);
     }
         
 }

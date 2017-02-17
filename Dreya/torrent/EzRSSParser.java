@@ -17,7 +17,7 @@ import com.sun.syndication.feed.synd.SyndEnclosureImpl;
  *
  * @author smv
  */
-public class EzRSSParser {
+public class EzRSSParser implements Runnable {
     
     public EzRSSParser() {        
     }
@@ -60,6 +60,22 @@ public class EzRSSParser {
             System.out.println("[error] "+ex.getMessage());
         }
                 
+    }
+
+    @Override
+    public void run() {
+        
+        while (true)
+        {
+            try {
+                this.check();                
+                Thread.sleep(1800000);
+            } catch (InterruptedException ex) {
+                System.out.println("[error] EzRSSParser Thread error: "+ex.getMessage());
+            }
+        }
+        
+        
     }
     
 }
