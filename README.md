@@ -18,7 +18,7 @@ Jelenleg Dreya "magja" egy Java -ban írt rész, ami a Dreya mappában találhat
  * Letölti a sorozataimhoz a magyar feliratokat
  * Ha a BKV -nek gondja van valamely engem érintő járattal, arról értesít.
  * A fentiekről értesít Facebookon
- * Facebook chatbotként jelenleg csak a "hello" -ra képes válaszolni.
+ * Facebook chatbotként jelenleg csak a "hello" -ra, valamint a "na kapcsolj ki", és a "kikapcsolhatsz" (valamint ezek variációira) képes válaszolni.
  * Soros porton rákötött Arduino kezelése
  * Értesítések a közeledő névnapokról, szülinapokról, ünnepnapokról
  * Mozgásérzékelő
