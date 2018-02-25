@@ -1,0 +1,190 @@
+menyi az ido|Time
+hany ora van|Time
+hany ora van hany ora|Time
+menyi az ora|Time
+hany a hany ora|Time
+meg tudnad mondani menyi az ido|Time
+segits kerlek hany ora van|Time
+menyi az ido most|Time
+menyi az ora|Time
+menyi ora van|Time
+helo|Hello
+szia|Hello
+szia szia|Hello
+szerbusz|Hello
+joreggel|Hello
+jo reggelt|Hello
+szervusz|Hello
+sziamia|Hello
+sziamia|Hello
+sziamia sziamia helo szerbusz|Hello
+tsa|Hello
+csoci|Hello
+csoci csao csako hello|Hello
+csa|Hello
+csako|Hello
+mi az elet ertelme|Life
+mi a valasz az eletre a vilagra meg mindenre|Life
+mi celja az eletnek|Life
+miert letezunk|Life
+mire jo az elet|Life
+mi a valasz a nagy kerdesre|Life
+mire valo az elet|Life
+mondj egy vicet|Joke
+vidits fel|Joke
+mondj valami vidamat|Joke
+meselj valami vidamat|Joke
+meselj egy vicet|Joke
+mondj valami viceset|Joke
+mondj egy jo vicet|Joke
+tudsze egy vicet|Joke
+tudsz viceset|Joke
+menj aludni|Sleep
+mehetsz aludni|Sleep
+menj alukalni|Sleep
+joejt|Sleep
+szep almokat|Sleep
+aludj jol|Sleep
+kikapcsolhatsz|Sleep
+kapcsolj ki|Sleep
+elaludhatsz|Sleep
+aludj egyet|Sleep
+nincs mara szukseg rad|Sleep
+nincs szukseg rad|Sleep
+ne menj aludni|NoSleep
+maradj ebren|NoSleep
+ne aludj el|NoSleep
+ne aludj kerlek|NoSleep
+ne menj el aludni|NoSleep
+ne menj elaludni|NoSleep
+maradj|NoSleep
+ne kapcsolj ki|NoSleep
+ne kapcsold ki magad|NoSleep
+maradj meg|NoSleep
+mizujs|WhatsUp
+mi ujsag|WhatsUp
+mi ujsag veled|WhatsUp
+mi ujsag meselj|WhatsUp
+hogy vagy|WhatsUp
+hogy erzed magad|WhatsUp
+mizu|WhatsUp
+hogysmint|WhatsUp
+milyen ido lesz ma|Weather
+milyen ido varhato|Weather
+milyen lesz az idojaras|Weather
+milyen az idojaras|Weather
+milyen idojaras lesz holnap|Weather
+milyen ido varhato holnap|Weather
+milyen lesz a holnapi ido|Weather
+milyen ido lesz holnaputan|Weather
+milyen ido lesz holnap|Weather
+fog e esni ma|Weather
+fog esni|Weather
+milyen ido lesz|Weather
+holnapra milyen idot mondanak|Weather
+milyen idot mondanak|Weather
+holnap utan milyen lesz az ido|Weather
+holnaputan milyen ido varhato|Weather
+fog esni holnap vagy holnaputan|Weather
+fog esni ma|Weather
+idojaras|Weather
+milyen ido varhato penteken|Weather
+milyen ido varhato csutortokon|Weather
+hany lakosa van|Cities
+mennyien laknak|Cities
+hanyan laknak debrecenben|Cities
+hany lakosa van derecskenek|Cities
+hany lakosa van budapestnek|Cities
+hanyan laknak budapesten|Cities
+hany lakosa van|Cities
+mekkora varos|Cities
+mekkora varos derecske|Cities
+mekkora varos budapest|Cities
+mekkora varos miskolc|Cities
+melyik megyeben van|Cities
+melyik megyehez tartozik|Cities
+melyik megye resze|Cities
+melyik megye resze miskolc|Cities
+melyik megye resze eger|Cities
+melyik megyeben van dorog|Cities
+hany fok van|Temp
+hany fok van hany fok van|Temp
+hany fok van othon|Temp
+milyen a homerseklet|Temp
+milyen homerseklet van othon|Temp
+meleg van e othon|Temp
+meleg vane othon|Temp
+hideg vane othon|Temp
+hideg van e othon|Temp
+menyi a load|Load
+menyire terhelt a rendszer|Load
+menyire vagy terhelve|Load
+menyi most a loadod|Load
+load most menyi|Load
+a load most menyi|Load
+menyi most a load|Load
+a loadod most mi|Load
+menyi az atlagos load|Load
+hany lakosa van new york nak |Cities
+meselj egy jo vicet|Joke
+milyen lesz az ido holnap|Weather
+na mizujs|WhatsUp
+ma koltotem 1500 ft|Money
+elkoltotem 5000 forintot|Money
+most vasaroltam 700 forint ertekben|Money
+ma oszesen 800 ft ot koltotem|Money
+vasaroltam 1200 ft ertekben|Money
+a mai koltesem 600 ft|Money
+most vetem 400 ft-ert|Money
+700 ert vasaroltam|Money
+most vasaroltam 700 ft|Money
+most vetem 1200 ert|Money
+ma 300 koltotem|Money
+ma 200 ft ot koltotem|Money
+ma elkoltotem 700 ft|Money
+menyit koltotunk a heten|MoneyStatus
+menyit koltotem a heten|MoneyStatus
+a heten menyit koltotunk|MoneyStatus
+menyi penz maradt a hetre|MoneyStatus
+menyi penzunk van|MoneyStatus
+menyi a heti koltes|MoneyStatus
+minyit koltotunk|MoneyStatus
+maradt e penzunk a hetre|MoneyStatus
+maradt penz heten|MoneyStatus
+heti koltes|MoneyStatus
+menyi penzt koltotunk a honapban|MoneyStatus
+menyit koltotunk a honapban|MoneyStatus
+menyi penzt koltotunk iden|MoneyStatus
+kerestem 500 ft-ot|Money
+bevetelem 300 forint|Money
+kerestem penzt 800 ft-ot|Money
+kerestem valamennyi penzt|Money
+Thx|Thx
+Koszonom|Thx
+Koszi|Thx
+koszcsi|Thx
+koszcsiko|Thx
+koszonom szepen|Thx
+thx a lot|Thx
+thxi|Thx
+emlekeztes holnap hogy valamit csinalnom kel|Notification
+emlekeztes hogy valamit csinalnom kel|Notification
+emlekeztes keden hogy menjek el a dokihoz|Notification
+szolj ram szerdan hogy menjek el a boltba|Notification
+szolj ram csutortkon hogy vasaroljak valamit|Notification
+penteken szolj ram talalkozom van|Notification
+szombaton szolj ram hogy keljek koran|Notification
+holnap delutan szolj hogy valamit csinalnom kel|Notification
+holnap regel szolj ram hogy fontos dolgokat kel elintezni|Notification
+szolj jovoheten hogy jonek a szulok|Notification
+emlekeztess pentek 12 00 -kor hogy valami fontos dolog lesz|Notification
+emlekeztess reggel 8 kor valami|Notification
+haza kel menem|GoToHome
+lasan indulok haza|GoToHome
+vegeztem megyek haza|GoToHome
+szeretnek hazameni|GoToHome
+indulok haza|GoToHome
+vegeztem a munkaban|GoToHome
+indulok haza|GoToHome
+lasan megyek haza|GoToHome
+megyek haza|GoToHome

@@ -1,32 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <cameraIp>192.168.0.100</cameraIp>
-    <cameraUserPass>xxxxxxxxxxxxx</cameraUserPass>
-    <messengerSenderGateway>http://yoursite/sender.php</messengerSenderGateway>
+    <cameraIp>192.168.0.199</cameraIp>
+    <cameraUserPass>xxxxxxxx</cameraUserPass>
+
+    <scpHost>remote.host.com</scpHost>
+    <scpPort>22</scpPort>
+    <scpUser>camerauser</scpUser>
+    <scpPass>camerapass</scpPass>
+    <scpDirectory>/home/ipcam/images/</scpDirectory>
+    <motionImages>/home/ipcam/images/</motionImages>
+
+    <messengerSenderGateway>http://remote.sender.host/viber/sendMessage.php</messengerSenderGateway>
+
     <ezRss>https://eztv.ag/ezrss.xml</ezRss>
-    <showsFolder>~/series/</showsFolder>
-    <showsTorrentFolder>~/torrents/</showsTorrentFolder>
+
+    <showsFolder>/mnt/sdb1/downloads</showsFolder>
+    <showsTorrentFolder>/mnt/sdb1/torrents</showsTorrentFolder>
     <shows>
-	<series>
-	    <name>Freinds</name>
-	    <torrentTitle>Friends</torrentTitle>
-	    <subtitleText>Friends</subtitleText>
-	    <notIn>Orlans</notIn>
-	</series>
+        <series>
+            <name>Star Trek Discovery</name>
+            <torrentTitle>Star Trek Discovery</torrentTitle>
+            <subtitleText>Star Trek Discovery</subtitleText>
+            <notIn></notIn>
+        </series>
+        <series>
+            <name>Vikings</name>
+            <torrentTitle>Vikings</torrentTitle>
+            <subtitleText>Vikings</subtitleText>
+            <notIn></notIn>
+        </series>
+        <series>
+            <name>Gotham</name>
+            <torrentTitle>Gotham</torrentTitle>
+            <subtitleText>Gotham</subtitleText>
+            <notIn></notIn>
+        </series>
+        <series>
+            <name>Lucifer</name>
+            <torrentTitle>Lucifer</torrentTitle>
+            <subtitleText>Lucifer</subtitleText>
+            <notIn></notIn>
+        </series>
     </shows>
+
     <events>
-	<event month="10" day="31">Halloween</event>
-	<event month="03" day="08">Nők napja</event>
-	<event month="10" day="23">Október 23</event>
-	<event month="03" day="15">Március 15</event>
-	<event month="02" day="14">Valentin nap</event>
+        <event month="10" day="31">Halloween</event>
+        <event month="03" day="08">Nők napja</event>
+        <event month="10" day="23">Október 23</event>
+        <event month="03" day="15">Március 15</event>
+        <event month="02" day="14">Valentin nap</event>
     </events>
+
     <bkk>
-	<line>47-es</line>
-	<line>41-es</line>
-	<line>2-es</line>
-	<line>M1</line>
-	<line>M2</line>
-	<line>M3</line>
+	<line> 17-es</line>
+	<line> 2-es</line>
+	<line> 3-as</line>
+	<line> M2-es</line>
+	<line> M3-as</line>
+	<line> M4-es</line>
     </bkk>
+    <bkkfutar></bkkfutar>
 </config>

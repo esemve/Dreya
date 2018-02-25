@@ -1,0 +1,18 @@
+pip3 install pyquery
+pip3 install pygame
+pip3 install scikit-learn
+pip3 install numpy
+pip3 install scipy
+pip3 install pyserial
+
+sudo apt-get install sshpass
+sudo apt-get install ffmpeg
+sudo apt-get install arpscan
+sudo apt-get install v4l-utils
+
+modprobe v4l2loopback
+
+
++
+
+opencv install: http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/
