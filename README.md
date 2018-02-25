@@ -10,7 +10,7 @@ Mert nem célom oktatóanyagot készíteni. PHP Programozó vagyok, így bár Dr
 
 ## Milyen részekből áll Dreya?
 
-Jelenleg Dreya "magja" egy Python -ban írt rész, ami a Dreya mappában található, valamint része még egy PHP -ban írt üzenetküldő gateway (a kód tisztítása után publisholom azt is). Erre azért van szükség, mert facebook chatbotként kommunikál velünk, amihez szükség volt egy 24/7 elérhető https connectionnel rendelkező felületre. Emiatt a szerver és Dreya a 18080 -as porton keresztül beszélgetnek egymással, és a PHP-s rész gatewayként működik. Tartozik hozzá egy általam épített Arduino -s mozgásérzékelő.
+Jelenleg Dreya "magja" egy Python -ban írt rész, ami a Dreya mappában található, valamint része még egy PHP -ban írt üzenetküldő gateway (a kód tisztítása után publisholom azt is). Erre azért van szükség, mert viber chatbotként kommunikál velünk, amihez szükség volt egy 24/7 elérhető https connectionnel rendelkező felületre. Emiatt a szerver és Dreya a 18080 -as porton keresztül beszélgetnek egymással, és a PHP-s rész gatewayként működik. Tartozik hozzá egy általam épített Arduino -s mozgásérzékelő.
 
 ## Mire képes jelenleg Dreya? 
 
