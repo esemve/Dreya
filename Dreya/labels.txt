@@ -153,7 +153,7 @@ maradt penzunk hetre|MoneyStatus
 maradt penz heten|MoneyStatus
 heti koltes|MoneyStatus
 menyi penzt koltotunk a honapban|MoneyStatus
-menyit koltotunk a honapban|MoneyStatus
+menyit koltotunk honapban|MoneyStatus
 menyi penzt koltotunk iden|MoneyStatus
 kerestem 500 ft-ot|Money
 bevetelem 300 forint|Money
@@ -177,8 +177,8 @@ szombaton szolj ram hogy keljek koran|Notification
 holnap delutan szolj hogy valamit csinalnom kel|Notification
 holnap regel szolj ram fontos dolgokat kel elintezni|Notification
 szolj jovoheten hogy jonek szulok|Notification
-emlekeztess pentek 12 00 -kor hogy valami fontos dolog lesz|Notification
-emlekeztess reggel 8 kor valami|Notification
+emlekeztes pentek 12 00 -kor hogy valami fontos dolog lesz|Notification
+emlekeztes regel 8 kor valami|Notification
 haza kel menem|GoToHome
 lasan indulok haza|GoToHome
 vegeztem megyek haza|GoToHome
