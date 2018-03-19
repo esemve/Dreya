@@ -1,12 +1,12 @@
-menyi az ido|Time
+menyi ido|Time
 hany ora van|Time
 hany ora van hany ora|Time
-menyi az ora|Time
-hany a hany ora|Time
-meg tudnad mondani menyi az ido|Time
+menyi ora|Time
+hany hany ora|Time
+meg tudnad mondani menyi ido|Time
 segits kerlek hany ora van|Time
-menyi az ido most|Time
-menyi az ora|Time
+menyi ido most|Time
+menyi ora|Time
 menyi ora van|Time
 helo|Hello
 szia|Hello
@@ -23,13 +23,13 @@ csoci|Hello
 csoci csao csako hello|Hello
 csa|Hello
 csako|Hello
-mi az elet ertelme|Life
-mi a valasz az eletre a vilagra meg mindenre|Life
-mi celja az eletnek|Life
+mi elet ertelme|Life
+mi valasz eletre vilagra meg mindenre|Life
+mi celja eletnek|Life
 miert letezunk|Life
-mire jo az elet|Life
-mi a valasz a nagy kerdesre|Life
-mire valo az elet|Life
+mire jo elet|Life
+mi valasz nagy kerdesre|Life
+mire valo elet|Life
 mondj egy vicet|Joke
 vidits fel|Joke
 mondj valami vidamat|Joke
@@ -110,20 +110,20 @@ melyik megyeben van dorog|Cities
 hany fok van|Temp
 hany fok van hany fok van|Temp
 hany fok van othon|Temp
-milyen a homerseklet|Temp
+milyen homerseklet|Temp
 milyen homerseklet van othon|Temp
 meleg van e othon|Temp
 meleg vane othon|Temp
 hideg vane othon|Temp
 hideg van e othon|Temp
-menyi a load|Load
-menyire terhelt a rendszer|Load
+menyi load|Load
+menyire terhelt rendszer|Load
 menyire vagy terhelve|Load
-menyi most a loadod|Load
+menyi most loadod|Load
 load most menyi|Load
-a load most menyi|Load
-menyi most a load|Load
-a loadod most mi|Load
+load most menyi|Load
+menyi most load|Load
+loadod most mi|Load
 menyi az atlagos load|Load
 hany lakosa van new york nak |Cities
 meselj egy jo vicet|Joke
@@ -134,7 +134,7 @@ elkoltotem 5000 forintot|Money
 most vasaroltam 700 forint ertekben|Money
 ma oszesen 800 ft ot koltotem|Money
 vasaroltam 1200 ft ertekben|Money
-a mai koltesem 600 ft|Money
+mai koltesem 600 ft|Money
 most vetem 400 ft-ert|Money
 700 ert vasaroltam|Money
 most vasaroltam 700 ft|Money
@@ -142,14 +142,14 @@ most vetem 1200 ert|Money
 ma 300 koltotem|Money
 ma 200 ft ot koltotem|Money
 ma elkoltotem 700 ft|Money
-menyit koltotunk a heten|MoneyStatus
-menyit koltotem a heten|MoneyStatus
-a heten menyit koltotunk|MoneyStatus
-menyi penz maradt a hetre|MoneyStatus
+menyit koltotunk heten|MoneyStatus
+menyit koltotem heten|MoneyStatus
+heten menyit koltotunk|MoneyStatus
+menyi penz maradt hetre|MoneyStatus
 menyi penzunk van|MoneyStatus
-menyi a heti koltes|MoneyStatus
+menyi heti koltes|MoneyStatus
 minyit koltotunk|MoneyStatus
-maradt e penzunk a hetre|MoneyStatus
+maradt penzunk hetre|MoneyStatus
 maradt penz heten|MoneyStatus
 heti koltes|MoneyStatus
 menyi penzt koltotunk a honapban|MoneyStatus
