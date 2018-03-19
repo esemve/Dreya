@@ -169,14 +169,14 @@ thx a lot|Thx
 thxi|Thx
 emlekeztes holnap hogy valamit csinalnom kel|Notification
 emlekeztes hogy valamit csinalnom kel|Notification
-emlekeztes keden hogy menjek el a dokihoz|Notification
-szolj ram szerdan hogy menjek el a boltba|Notification
+emlekeztes keden hogy menjek el dokihoz|Notification
+szolj ram szerdan hogy menjek el boltba|Notification
 szolj ram csutortkon hogy vasaroljak valamit|Notification
 penteken szolj ram talalkozom van|Notification
 szombaton szolj ram hogy keljek koran|Notification
 holnap delutan szolj hogy valamit csinalnom kel|Notification
-holnap regel szolj ram hogy fontos dolgokat kel elintezni|Notification
-szolj jovoheten hogy jonek a szulok|Notification
+holnap regel szolj ram fontos dolgokat kel elintezni|Notification
+szolj jovoheten hogy jonek szulok|Notification
 emlekeztess pentek 12 00 -kor hogy valami fontos dolog lesz|Notification
 emlekeztess reggel 8 kor valami|Notification
 haza kel menem|GoToHome
