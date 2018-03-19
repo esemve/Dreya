@@ -12,8 +12,8 @@ helo|Hello
 szia|Hello
 szia szia|Hello
 szerbusz|Hello
-joreggel|Hello
-jo reggelt|Hello
+joregel|Hello
+jo regelt|Hello
 szervusz|Hello
 sziamia|Hello
 sziamia|Hello
@@ -97,10 +97,10 @@ hany lakosa van derecskenek|Cities
 hany lakosa van budapestnek|Cities
 hanyan laknak budapesten|Cities
 hany lakosa van|Cities
-mekkora varos|Cities
-mekkora varos derecske|Cities
-mekkora varos budapest|Cities
-mekkora varos miskolc|Cities
+mekora varos|Cities
+mekora varos derecske|Cities
+mekora varos budapest|Cities
+mekora varos miskolc|Cities
 melyik megyeben van|Cities
 melyik megyehez tartozik|Cities
 melyik megye resze|Cities
@@ -158,7 +158,7 @@ menyi penzt koltotunk iden|MoneyStatus
 kerestem 500 ft-ot|Money
 bevetelem 300 forint|Money
 kerestem penzt 800 ft-ot|Money
-kerestem valamennyi penzt|Money
+kerestem valamenyi penzt|Money
 Thx|Thx
 Koszonom|Thx
 Koszi|Thx
